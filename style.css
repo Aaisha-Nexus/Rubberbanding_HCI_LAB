@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+#score {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.hci-info {
+    margin: 10px auto 20px;
+    font-size: 15px;
+    max-width: 620px;
+    background: #e3f2fd;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #2196F3;
+}
+
+canvas {
+    border: 2px solid #333;
+    background: white;
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    padding: 12px 28px;
+    font-size: 16px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}

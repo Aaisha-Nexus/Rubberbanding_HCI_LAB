@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rubber Band Selection — HCI Lab (Fitts’s Law)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Rubber Band Selection + Fitts’s Law</h1>
+
+    <p>
+        Click and drag to draw a rubber band box around the moving circles.<br>
+        Try to select as many as possible before they move away.
+    </p>
+
+    <div id="score">Selected: 0 / 12 | Time: 0.00s | Accuracy: 0%</div>
+
+    <div class="hci-info">
+        <strong>HCI Concepts:</strong> Rubber Banding • Fitts’s Law • Motor Execution • Selection Accuracy
+    </div>
+
+    <canvas id="canvas" width="700" height="400"></canvas>
+
+    <button id="resetBtn">Reset (New Movement)</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
